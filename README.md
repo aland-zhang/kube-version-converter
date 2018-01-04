@@ -26,18 +26,18 @@ $ ./kube-ver-conv.py query DaemonSet
 
 ```
 usage: kube-ver-conv.py convert [-h] [-s [file name]] [-d [file name]] -t
-                                [output version] [-o [output version]]
+                                [output version] [-o [output format]]
 
 optional arguments:
-  -h, --help            show this help message and exit
-  -s [file name], --source-file [file name]
-                        YML or JSON file to process, '-' for STDIN.
-  -d [file name], --dest-file [file name]
-                        File name for output, '-' for STDOUT.
-  -t [output version], --to-version [output version]
-                        Kubernetes version of the out object file.
-  -o [output version], --output-format [output version]
-                        Format of the output file, default is yaml
+-h, --help            show this help message and exit
+-s [file name], --source-file [file name]
+                      YML or JSON file to process, '-' for STDIN.
+-d [file name], --dest-file [file name]
+                      File name for output, '-' for STDOUT.
+-t [output version], --to-version [output version]
+                      Kubernetes version of the out object file.
+-o [output format], --output-format [output format]
+                      Format of the output file, default is yaml
 ```
 
 **Example**
