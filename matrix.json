@@ -1,0 +1,147 @@
+{"Container":{
+  "1.5": {"Group": "Core", "Version": "v1"},
+  "1.6": {"Group": "Core", "Version": "v1"},
+  "1.7": {"Group": "Core", "Version": "v1"},
+  "1.8": {"Group": "Core", "Version": "v1"},
+  "1.9": {"Group": "Core", "Version": "v1"}
+},
+"CronJob":{
+  "1.5": {"Group": "batch", "Version": "v2alpha1"},
+  "1.6": {"Group": "batch", "Version": "v2alpha1"},
+  "1.7": {"Group": "batch", "Version": "v2alpha1"},
+  "1.8": {"Group": "batch", "Version": "v1beta1"},
+  "1.9": {"Group": "batch", "Version": "v1beta1"}
+},
+"DaemonSet":{
+  "1.5": {"Group": "extensions", "Version": "v1beta1"},
+  "1.6": {"Group": "extensions", "Version": "v1beta1"},
+  "1.7": {"Group": "extensions", "Version": "v1beta1"},
+  "1.8": {"Group": "apps", "Version": "v1beta2"},
+  "1.9": {"Group": "apps", "Version": "v1"}
+},
+"Deployment":{
+  "1.5": {"Group": "extensions", "Version": "v1beta1"},
+  "1.6": {"Group": "apps", "Version": "v1beta1"},
+  "1.7": {"Group": "apps", "Version": "v1beta1"},
+  "1.8": {"Group": "apps", "Version": "v1beta2"},
+  "1.9": {"Group": "apps", "Version": "v1"}
+},
+"Job":{
+  "1.5": {"Group": "batch", "Version": "v1"},
+  "1.6": {"Group": "batch", "Version": "v1"},
+  "1.7": {"Group": "batch", "Version": "v1"},
+  "1.8": {"Group": "batch", "Version": "v1"},
+  "1.9": {"Group": "batch", "Version": "v1"}
+},
+"Pod":{
+  "1.5": {"Group": "Core", "Version": "v1"},
+  "1.6": {"Group": "Core", "Version": "v1"},
+  "1.7": {"Group": "Core", "Version": "v1"},
+  "1.8": {"Group": "Core", "Version": "v1"},
+  "1.9": {"Group": "Core", "Version": "v1"}
+},
+"ReplicaSet":{
+  "1.5": {"Group": "extensions", "Version": "v1beta1"},
+  "1.6": {"Group": "extensions", "Version": "v1beta1"},
+  "1.7": {"Group": "extensions", "Version": "v1beta1"},
+  "1.8": {"Group": "extensions", "Version": "v1beta1"},
+  "1.9": {"Group": "extensions", "Version": "v1beta1"}
+},
+"ReplicationController":{
+  "1.5": {"Group": "Core", "Version": "v1"},
+  "1.6": {"Group": "Core", "Version": "v1"},
+  "1.7": {"Group": "Core", "Version": "v1"},
+  "1.8": {"Group": "Core", "Version": "v1"},
+  "1.9": {"Group": "Core", "Version": "v1"}
+},
+"StatefulSet":{
+  "1.5": {"Group": "apps", "Version": "v1beta1"},
+  "1.6": {"Group": "apps", "Version": "v1beta1"},
+  "1.7": {"Group": "apps", "Version": "v1beta1"},
+  "1.8": {"Group": "apps", "Version": "v1beta2"},
+  "1.9": {"Group": "apps", "Version": "v1"}
+},
+"EndPoints":{
+  "1.5": {"Group": "Core", "Version": "v1"},
+  "1.6": {"Group": "Core", "Version": "v1"},
+  "1.7": {"Group": "Core", "Version": "v1"},
+  "1.8": {"Group": "Core", "Version": "v1"},
+  "1.9": {"Group": "Core", "Version": "v1"}
+},
+"Ingress":{
+  "1.5": {"Group": "extensions", "Version": "v1beta1"},
+  "1.6": {"Group": "extensions", "Version": "v1beta1"},
+  "1.7": {"Group": "extensions", "Version": "v1beta1"},
+  "1.8": {"Group": "extensions", "Version": "v1beta1"},
+  "1.9": {"Group": "extensions", "Version": "v1beta1"}
+},
+"Service":{
+  "1.5": {"Group": "Core", "Version": "v1"},
+  "1.6": {"Group": "Core", "Version": "v1"},
+  "1.7": {"Group": "Core", "Version": "v1"},
+  "1.8": {"Group": "Core", "Version": "v1"},
+  "1.9": {"Group": "Core", "Version": "v1"}
+},
+"ConfigMap":{
+  "1.5": {"Group": "Core", "Version": "v1"},
+  "1.6": {"Group": "Core", "Version": "v1"},
+  "1.7": {"Group": "Core", "Version": "v1"},
+  "1.8": {"Group": "Core", "Version": "v1"},
+  "1.9": {"Group": "Core", "Version": "v1"}
+},
+"Secret":{
+  "1.5": {"Group": "Core", "Version": "v1"},
+  "1.6": {"Group": "Core", "Version": "v1"},
+  "1.7": {"Group": "Core", "Version": "v1"},
+  "1.8": {"Group": "Core", "Version": "v1"},
+  "1.9": {"Group": "Core", "Version": "v1"}
+},
+"PersistentVolumeClaim":{
+  "1.5": {"Group": "Core", "Version": "v1"},
+  "1.6": {"Group": "Core", "Version": "v1"},
+  "1.7": {"Group": "Core", "Version": "v1"},
+  "1.8": {"Group": "Core", "Version": "v1"},
+  "1.9": {"Group": "Core", "Version": "v1"}
+},
+"StorageClass":{
+  "1.5": {"Group": "storage.k8s.io", "Version": "v1beta1"},
+  "1.6": {"Group": "storage.k8s.io", "Version": "v1beta1"},
+  "1.7": {"Group": "storage.k8s.io", "Version": "v1"},
+  "1.8": {"Group": "storage.k8s.io", "Version": "v1"},
+  "1.9": {"Group": "storage.k8s.io", "Version": "v1"}
+},
+"Namespaces":{
+  "1.5": {"Group": "Core", "Version": "v1"},
+  "1.6": {"Group": "Core", "Version": "v1"},
+  "1.7": {"Group": "Core", "Version": "v1"},
+  "1.8": {"Group": "Core", "Version": "v1"},
+  "1.9": {"Group": "Core", "Version": "v1"}
+},
+"Role":{
+  "1.5": {"Group": "rbac.authorization.k8s.io", "Version": "v1alpha1"},
+  "1.6": {"Group": "rbac.authorization.k8s.io", "Version": "v1beta1"},
+  "1.7": {"Group": "rbac.authorization.k8s.io", "Version": "v1beta1"},
+  "1.8": {"Group": "rbac.authorization.k8s.io", "Version": "v1"},
+  "1.9": {"Group": "rbac.authorization.k8s.io", "Version": "v1"}
+},
+"RoleBinding":{
+  "1.5": {"Group": "rbac.authorization.k8s.io", "Version": "v1alpha1"},
+  "1.6": {"Group": "rbac.authorization.k8s.io", "Version": "v1beta1"},
+  "1.7": {"Group": "rbac.authorization.k8s.io", "Version": "v1beta1"},
+  "1.8": {"Group": "rbac.authorization.k8s.io", "Version": "v1"},
+  "1.9": {"Group": "rbac.authorization.k8s.io", "Version": "v1"}
+},
+"ClusterRole":{
+  "1.5": {"Group": "RbacAuthorization", "Version": "v1alpha1"},
+  "1.6": {"Group": "rbac.authorization.k8s.io", "Version": "v1beta1"},
+  "1.7": {"Group": "rbac.authorization.k8s.io", "Version": "v1beta1"},
+  "1.8": {"Group": "rbac.authorization.k8s.io", "Version": "v1"},
+  "1.9": {"Group": "rbac.authorization.k8s.io", "Version": "v1"}
+},
+"ClusterRoleBinding":{
+  "1.5": {"Group": "RbacAuthorization", "Version": "v1alpha1"},
+  "1.6": {"Group": "rbac.authorization.k8s.io", "Version": "v1beta1"},
+  "1.7": {"Group": "rbac.authorization.k8s.io", "Version": "v1beta1"},
+  "1.8": {"Group": "rbac.authorization.k8s.io", "Version": "v1"},
+  "1.9": {"Group": "rbac.authorization.k8s.io", "Version": "v1"}
+}}
