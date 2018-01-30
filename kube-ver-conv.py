@@ -3,6 +3,7 @@
 import argparse
 import json
 import yaml
+import os
 
 
 def record_to_string(record, version, with_header=True):
@@ -71,7 +72,7 @@ def convert_list(input_content, to_version):
 K8S_VER = ["1.5", "1.6", "1.7", "1.8", "1.9"]
 FILE_FORMAT = ["yaml", "json"]
 
-fi = open('matrix.json')
+fi = open(os.path.join(os.path.dirname(__file__), 'matrix.json'))
 MATRIX = json.load(fi)
 
 OBJECT_LIST = MATRIX.keys()
